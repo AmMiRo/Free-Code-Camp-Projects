@@ -1,0 +1,15 @@
+body {
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75%;
+  margin: 0 auto;
+}
+
+label {
+  margin: 5px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="title">Title goes here</h1>
+    <p id="description">Description goes here</p>
+    <form
+      id="survey-form"
+      method="post"
+      action="https://register-demo.freecodecamp.org"
+    >
+      <label for="name" id="name-label"
+        >Enter you name
+        <input
+          id="name"
+          name="name"
+          type="text"
+          required
+          placeholder="Enter your name here"
+      /></label>
+      <label for="email" id="email-label"
+        >Enter you email:
+        <input
+          id="email"
+          name="email"
+          type="email"
+          required
+          placeholder="Enter your email here"
+      /></label>
+      <label for="number" id="number-label"
+        >Enter a number
+        <input
+          id="number"
+          type="number"
+          name="number"
+          min="0"
+          max="120"
+          placeholder="Enter a number here"
+      /></label>
+      <label for="dropdown"
+        >This is a dropdown
+        <select id="dropdown" name="dropdown">
+          <option value="0">Option 1</option>
+          <option value="1">Option 2</option>
+        </select>
+      </label>
+      <label for="option-a"
+        ><input
+          id="option-a"
+          type="radio"
+          name="radio-group"
+          value="option-a"
+          checked
+        />
+        Option A</label
+      >
+      <label for="option-b"
+        ><input id="option-b" type="radio" name="radio-group" value="optio-b" />
+        Option B</label
+      >
+      <label for="first-checkbox">
+        <input
+          id="first-checkbox"
+          type="checkbox"
+          value="first-checkbox"
+          name="first-checkbox"
+        />
+        First Checkbox
+      </label>
+      <label for="second-checkbox">
+        <input
+          id="second-checkbox"
+          type="checkbox"
+          value="second-checkbox"
+          name="second-checkbox"
+        />
+        Second Checkbox
+      </label>
+      <label for="comments">
+        <textarea
+          id="comments"
+          name="comments"
+          rows="3"
+          cols="30"
+          placeholder="You can put your comments here"
+        ></textarea>
+      </label>
+      <input type="submit" id="submit" value="Submit" />
+    </form>
+  </body>
+</html>
